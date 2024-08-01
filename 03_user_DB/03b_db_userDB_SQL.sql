@@ -17,6 +17,15 @@ DESCRIBE boo.users;
 
 /* Daten */
 -- Nachteil: PWDs liegen offen! 
+INSERT INTO boo.users (userName, familyName, firstName,userPwd) 
+VALUES ('johndoe123', 'Doe', 'John','1234');
+
+INSERT INTO boo.users (userName, familyName, firstName,userPwd) 
+VALUES ('emilybrown22', 'Brown', 'Emily','7#85A');
+
+INSERT INTO boo.users (userName, familyName, firstName,userPwd) 
+VALUES ('michaelsmith7', 'Smith', 'Michael','user1234');
+
 
 
 /* Inhalte : Ergebnistabelle */
