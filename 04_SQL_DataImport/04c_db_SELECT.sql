@@ -19,15 +19,15 @@ SELECT * FROM boo.cats;
     -- cat_name AS "Katzen",
     -- age AS "Alter"
 -- FROM boo.cats
--- #WHERE id = 1 
--- #WHERE fur_color = "grey"
+#WHERE id = 1 
+#WHERE fur_color = "grey"
 #WHERE fur_color = "alpinaweiss"
 -- WHERE age >= 30
 -- ; 
 
 /* Delete - DS löschen | Vorsicht!! */
 -- DELETE FROM boo.cats WHERE id = 2; -- Filter
-#DELETE FROM boo.cats -- Alle Daten sind weg!!
+#DELETE FROM boo.cats; -- Alle Daten sind weg!!
 
 SELECT * FROM boo.cats;
 
